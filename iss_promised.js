@@ -8,7 +8,7 @@ const fetchCoordsByIP = function (body) {
   const parsed = JSON.parse(body);
   let ip = parsed.ip;
   // console.log(ip);
-  return request(`http://ipwho.is/${222}`);
+  return request(`http://ipwho.is/${ip}`);
 };
 
 const fetchISSFlyOverTimes = function (body) {
